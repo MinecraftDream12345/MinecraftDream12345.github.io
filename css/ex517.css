@@ -150,9 +150,7 @@
         background-color: transparent
     }
 }
-@media (prefers-color-scheme: dark) {
-    /*普通*/
-    /*全局*/
+/* @media (prefers-color-scheme: dark) {
     body
     {
         background-image: url(https://image.wsq127.top/file/41137d6c4115155569877.jpg) !important;
@@ -169,7 +167,6 @@
     {
         color: white;
     }
-    /*顶栏*/
     .arco-menu-item>a>img
     {
         content: url("https://image.wsq127.top/file/8f9de0dc753a347ed745d.png");
@@ -208,7 +205,6 @@
     {
         background-color: #fff0; 
     }
-    /*卡片*/
     .arco-divider-horizontal
     {
         display: none;
@@ -226,7 +222,6 @@
         transform: translateY(-3px);
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
-    /*大标题*/
     .index_header__ogLm7
     {
         background-color: #fff0; 
@@ -238,13 +233,11 @@
         background-color: #fff0;
         transition: all 0.3s ease;
     }
-    /*底栏*/
     .main-layouts_footer__yILeW
     {
         background-color: #23232400;
         border-top: none;
     }
-    /*列表*/
     .arco-table-content-scroll
     {
         border-radius: 10px;
@@ -258,7 +251,6 @@
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
     }
-    /*题目*/
     .index_contest-layout-basic__wvbdI
     {
         border-radius: 15px;
@@ -281,12 +273,10 @@
     {
         border-radius: 5px; 
     }
-    /*个人信息*/
     .custom-upload-avatar
     {
         left:100px;
     }
-    /*滚动条*/
     ::-webkit-scrollbar-thumb {
         background-color: rgba(137, 81, 234, .99);
     }
@@ -298,7 +288,6 @@
         height: 10px;
         background-color: rgba(0, 0, 0, .12);
     }
-    /*主页*/
     .index_hero__96Pn_
     {
         margin: auto;
@@ -324,12 +313,10 @@
         border-radius: 30px 30px 0px 0px;
         background-color: #232324;
     }
-    /*比赛*/
-    /*列表*/
     .arco-table-content-scroll
     {
         margin-top: 15px;
         margin-left: 15px;
         margin-bottom: 20px;
     }
-}
+} */
