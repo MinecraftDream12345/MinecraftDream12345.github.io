@@ -1,4 +1,4 @@
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) { */
     body,html {
         background-image: url(https://pic.imgdb.cn/item/62df71a5f54cd3f9376f351d.jpg) !important;
         background-repeat: no-repeat;
@@ -149,7 +149,7 @@
     .index_header__ogLm7 {
         background-color: transparent
     }
-}
+/* } */
 /* @media (prefers-color-scheme: dark) {
     body
     {
