@@ -1,12 +1,4 @@
-/* ==UserStyle==
-@name          Ex517
-@namespace      github.com/openstyles/stylus
-@version        0.0.2
-@description    A new userstyle
-@author         wsq127
-==/UserStyle== */
-
-@-moz-document regexp("https://*.517coding.com/.*") {
+@-moz-document regexp("https://*.517coding.com/*") {
     @media (prefers-color-scheme: light) {
         body,html {
             background-image: url(https://pic.imgdb.cn/item/62df71a5f54cd3f9376f351d.jpg) !important;
@@ -343,7 +335,7 @@
     }
 }
 
-@-moz-document regexp("https://517coding.com/contests/.*"), regexp("https://www.517coding.com/contests/.*") {
+@-moz-document regexp("https://*.517coding.com/contests/*") {
     
     @media (prefers-color-scheme: dark) {
         /*比赛*/
