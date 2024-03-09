@@ -1,0 +1,358 @@
+/* ==UserStyle==
+@name          Ex517
+@namespace      github.com/openstyles/stylus
+@version        0.0.2
+@description    A new userstyle
+@author         wsq127
+==/UserStyle== */
+
+@-moz-document regexp("https://*.517coding.com/.*") {
+    @media (prefers-color-scheme: light) {
+        body,html {
+            background-image: url(https://pic.imgdb.cn/item/62df71a5f54cd3f9376f351d.jpg) !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #00000000
+        }
+
+        .main-layouts_main__byKRK {
+            background-color: #00000000
+        }
+
+        .main-layouts_footer__yILeW {
+            border-top: 0;
+            color: #c9d1d9
+        }
+
+        .main-layouts_footer__yILeW a {
+            color: #c9d1d9
+        }
+
+        .layout-header_navbar__a866S {
+            background-color: #00000000;
+            border-bottom: 0 solid var(--color-border)
+        }
+
+        .layout-header_arco-menu__qaCWA {
+            background-color: #00000000
+        }
+
+        .arco-menu-light .arco-menu-group-title,
+        .arco-menu-light .arco-menu-inline-header,
+        .arco-menu-light .arco-menu-item,
+        .arco-menu-light .arco-menu-pop-header {
+            background-color: #00000000;
+            transition: all .3s
+        }
+
+        .arco-menu-item {
+            background-color: #00000000;
+            transition: all .3s
+        }
+
+        .arco-menu-pop {
+            display: none
+        }
+
+        div.arco-menu-item[tabindex="-1"] {
+            display: none
+        }
+
+        a {
+            transition: all .15s ease;
+            color: #005c97
+        }
+
+        a:hover {
+            color: #fa4b4b
+        }
+
+        a {
+            position: relative
+        }
+
+        a:not(.exlg-dash-options)::after {
+            content: "";
+            width: 0;
+            height: 5px;
+            background: rgba(0, 110, 255, .575);
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transition: all .3s
+        }
+
+        a:not(.exlg-dash-options):hover::after {
+            left: 0;
+            width: 100%
+        }
+
+        a[data-v-303bbf52][data-v-639bc19b][data-v-5e85f938]::after {
+            height: 0 !important
+        }
+
+        a[data-v-303bbf52][data-v-258e49ac]::after {
+            height: 0 !important
+        }
+
+        .arco-menu-selected-label {
+            display: none
+        }
+
+        .arco-card {
+            margin-top: 11px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px) saturate(150%);
+            transition: all .3s
+        }
+
+        .index_hero__96Pn_ {
+            width: 1320px;
+            margin: auto;
+            border-radius: 10px;
+            background-color: rgba(64, 128, 2550, 0.7);
+            backdrop-filter: blur(12px) saturate(150%)
+        }
+
+        .arco-collapse-item-header {
+            background-color: transparent;
+            border: 0
+        }
+
+        .arco-divider {
+            opacity: 0
+        }
+
+        .arco-tabs-header-title {
+            transition: all .3s
+        }
+
+        .arco-collapse-item-header {
+            background-color: transparent
+        }
+
+        .arco-collapse-item-content {
+            background-color: transparent
+        }
+
+        .arco-pagination-option {
+            background-color: transparent
+        }
+
+        .arco-table-th {
+            background-color: transparent
+        }
+
+        .arco-table-td {
+            background-color: transparent;
+            transition: all .2s
+        }
+
+        .arco-link {
+            background-color: transparent
+        }
+
+        .index_header__ogLm7 {
+            background-color: transparent
+        }
+    }
+    @media (prefers-color-scheme: dark) {
+        /*普通*/
+        /*全局*/
+        body
+        {
+            background-image: url(https://image.wsq127.top/file/41137d6c4115155569877.jpg) !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .main-layouts_main__byKRK
+        {
+            background-color: #fff0;
+        }
+        p
+        {
+            color: white;
+        }
+        /*顶栏*/
+        .arco-menu-item>a>img
+        {
+            content: url("https://image.wsq127.top/file/8f9de0dc753a347ed745d.png");
+        }
+        .layout-header_arco-menu__qaCWA
+        {
+            background-color:#fff0;
+        }
+        .layout-header_navbar__a866S
+        {
+            margin: auto;
+            width: 1200px;
+            margin-top: 2px;
+            border-radius: 30px 30px 30px 30px;
+            background-color: #232324;
+        }
+        #__next >section>.arco-layout-header
+        {
+            margin: auto;
+            width: 1200px;
+            height: 80px;
+            margin-top: 2px;
+            border-radius: 30px 30px 30px 30px;
+            background-color: #232324;
+        }
+        .index_title__ZaaoU
+        {
+            margin: auto;
+            margin-top: 10px;
+        }
+        .index_navbar__A4ydk
+        {
+            background-color:#fff0;
+        }
+        .arco-menu-inner
+        {
+            background-color: #fff0; 
+        }
+        /*卡片*/
+        .arco-divider-horizontal
+        {
+            display: none;
+        }
+        .arco-card
+        {
+            border-radius: 10px;
+            background-color: #232324dd;
+            transition: all 0.3s ease;
+        }
+        .arco-card:hover
+        {
+            border-radius: 10px;
+            background-color: #232324f0;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        /*大标题*/
+        .index_header__ogLm7
+        {
+            background-color: #fff0; 
+        }
+        .container
+        {
+            margin-top: 15px;
+            border-radius: 15px;
+            background-color: #fff0;
+            transition: all 0.3s ease;
+        }
+        /*底栏*/
+        .main-layouts_footer__yILeW
+        {
+            background-color: #23232400;
+            border-top: none;
+        }
+        /*列表*/
+        .arco-table-content-scroll
+        {
+            border-radius: 10px;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+
+        }
+        .arco-table-content-scroll:hover
+        {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+        }
+        /*题目*/
+        .index_contest-layout-basic__wvbdI
+        {
+            border-radius: 15px;
+            background-color: #232324F0;
+        }
+        .problem_container__tWXAL
+        {
+            margin-left: 10px;
+        }
+        .editor_footer__PdYnR
+        {
+            margin-bottom: 10px;
+            border-radius: 0px 0px 10px 10px; 
+        }
+        .arco-select-view
+        {
+            border-radius: 10px 10px 0px 0px; 
+        }
+        .hljs
+        {
+            border-radius: 5px; 
+        }
+        /*个人信息*/
+        .custom-upload-avatar
+        {
+            left:100px;
+        }
+        /*滚动条*/
+        ::-webkit-scrollbar-thumb {
+            background-color: rgba(137, 81, 234, .99);
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #5e72e4;
+        }
+        ::-webkit-scrollbar {
+            width: 5px;
+            height: 10px;
+            background-color: rgba(0, 0, 0, .12);
+        }
+    }
+    
+    
+}
+
+@-moz-document url("https://*.517coding.com/") {
+    @media (prefers-color-scheme: dark) {
+        /*主页*/
+        .index_hero__96Pn_
+        {
+            margin: auto;
+            width: 1200px;
+            height: 100px;
+            margin-top: 1.8px;
+            border-radius: 0px 0px 30px 30px;
+        }
+        .index_title__OHHeW
+        {
+            margin-top: 10px;
+        }
+        .arco-card-size-default
+        {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .layout-header_navbar__a866S
+        {
+            margin: auto;
+            width: 1200px;
+            margin-top: 2px;
+            border-radius: 30px 30px 0px 0px;
+            background-color: #232324;
+        }
+    }
+}
+
+@-moz-document regexp("https://517coding.com/contests/.*"), regexp("https://www.517coding.com/contests/.*") {
+    
+    @media (prefers-color-scheme: dark) {
+        /*比赛*/
+        /*列表*/
+        .arco-table-content-scroll
+        {
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-bottom: 20px;
+        }
+    }
+}
